@@ -60,6 +60,9 @@
 ### 10.什么是线程？图示进程与线程之间的关系。
 
 - 线程是进程内一个相对独立的执行流。
+    ![https://raw.githubusercontent.com/FANSENG/Figure-bed/master/Picture/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%85%B3%E7%B3%BB.PNG](https://raw.githubusercontent.com/FANSENG/Figure-bed/master/Picture/操作系统/线程与进程的关系.PNG)
 
 ### 13.同一进程中的多个线程有哪些成分是共用的，哪些成分是私用的？
+
+- 堆、数据和程序代码是公用的；线程控制块、寄存器和用户栈是私用的。
 
